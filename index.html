@@ -1,9 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>How to make sushi</title>
-  </head>
-  <body>
-    <p>I have no idea...</p>
-  </body>
+<html id="loginID" lang="en">
+<head>
+  <title>student.check</title>
+  <link href="bootstrap.css" rel="stylesheet">
+   <link href="main.css" rel="stylesheet">
+
+   <meta name="viewport" content="width=device-width" />
+   <!-- Javascript -->
+</head>
+
+<body id="bodyID" class="logintext">
+   <div id="error"><!-- JS....--></div>
+   <img id="headerImage" src="images/images-master/login/header.png" alt="Header Bild">
+
+   <div id="inputFields">
+   <input id="email" type="text" class="form-control loginData" placeholder="BENUTZERNAME" required autofocus>
+   <input id="password" type="password" class="form-control loginData" placeholder="PASSWORT" required min=7>
+   </div>
+   <button id="loginButton" class="btn btn-lg btn-success btn-block" type="submit" onclick="loginButton()"> LOS! </button>
+
+   <div id="footerText">
+     <footer>
+      <img id="footerImage" src="images/images-master/login/footer.png" >
+      <div id = "blackText">edition 2016 dark night blue 1.0</div>
+       <p>CHECK! und CHECK! Lehrerzimmer sind Produkte des Raup&Ritter Verlag und der OnWerk Softwareagentur Mannheim
+         <br><a href="http://www.raupundritter.com">www.raupundritter.com </a>-<a href="#"> Kontakt </a>-<a href="#"> Impressum </a>-<a href="#"> Preise </a>-<a href="#"> Hilfe</a>
+              </p>
+          </footer>
+      </div>
+</body>
 </html>

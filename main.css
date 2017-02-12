@@ -1,0 +1,68 @@
+body {
+    background:white;
+}
+#headerImage{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#loginBody {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#inputFields {
+  height: 40px;
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#email{
+  font-family: Roboto Thin;
+  margin: 5px auto;
+  font-size: 13 pt;
+  color: #001a3a;
+}
+#password{
+  font-family: Roboto Thin;
+  margin: 5px auto;
+  font-size: 13 pt;
+  color: #001a3a;
+}
+
+#loginButton {
+    width: 150px;
+    height: 40px;
+    background-color: #001a3a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    align-self: center;
+    font-family: Roboto Thin;
+
+}
+#footerImage{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footerText {
+  color:#8da6d6;
+  padding: 5px;
+  margin: 0 auto;
+  position:fixed;
+    bottom: 0;
+    text-align: center;
+width:  800px;
+left: 50%;
+z-index: 1;
+margin-left: -400px;
+
+}
+#footerText a{
+  color:#8da6d6;
+}
+#blackText{
+  color: black;
+}
